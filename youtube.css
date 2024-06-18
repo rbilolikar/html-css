@@ -17,18 +17,16 @@ p{
 
 }
 
-.video-description{   /* For each individual video div */
-  width:300px;
-  display: inline-block;
-  margin-right: 10px;
-  vertical-align: top;
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
-
 .thumbnail{   /* Video picture */
-  width: 300px;
+  width: 100%;
   margin-right: 10px;
-  display: inline-block;
   vertical-align: top;
 }
 
@@ -44,24 +42,15 @@ p{
   margin-bottom: 12px;
 }
 
-.channel-picture{ /* Div for author's profile picture */
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  transition: 0.5s;
 }
 
 .profile-picture{ /* Profile picture */
   width: 40px;
   border-radius: 36px;
-  display: inline-block;
-
-}
-
-
-.video-info{  /* Div containing video title, author and stats */
-  display: inline-block;
-  width: 200px;
-  vertical-align: top;
 }
 
 .video-author, 
