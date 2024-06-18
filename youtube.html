@@ -3,44 +3,89 @@
 <html>
   <head>
     <title> YouTube.com Clone </title>
-    <style>
 
-      .search{
-        margin-bottom: 75px;
-        height: 40px;
-        width: 358px; 
-        padding-left: 12px;
-        font-size: 16px;
-        border-width: 1px;
-        border-color: rgb(204, 204, 204);
-        border-style: solid;
-
-      }
-
-      .thumbnail{
-        width: 200px;
-        display: block;
-        
-      }
-      
-
-
-    </style>
+    <link rel ="stylesheet" href="youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
   </head>
 
   <body>
-    <input class="search" type="text" placeholder="Search">
-    <img class="thumbnail" src = "images/pic1.webp">
+    <input class="search-bar" type="text" placeholder="Search">
     
+    
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img1.webp">
+      </div>
 
-    <p class="text">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="author">
-      Marques Brownlee
-    </p>
-    <p class="stats">
-      3.4M views &#183; 6 months ago
-    </p>
+      <div>
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth1.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img2.webp">
+      </div>
+
+      <div>
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth2.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier 
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img3.webp">
+      </div>
+
+      <div>
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth3.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            Crazy Tik Toks Taken Moments Before DISASTER
+          </p>
+          <p class="video-author">
+            SSSniperWolf 
+          </p>
+          <p class="video-stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    
   </body>
 </html>
