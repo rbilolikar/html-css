@@ -1,21 +1,4 @@
-p{
-  font-family: Roboto, Arial;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-.search-bar{
-  margin-bottom: 75px;
-  height: 40px;
-  width: 358px; 
-  padding-left: 12px;
-  font-size: 16px;
-  border-width: 1px;
-  border-color: rgb(204, 204, 204);
-  border-style: solid;
-  display: block;
-
-}
 
 .grid{
   display: grid;
