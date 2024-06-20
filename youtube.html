@@ -7,6 +7,7 @@
     <link rel = "stylesheet" href = "styles/general.css">
     <link rel ="stylesheet" href="styles/video.css">
     <link rel = "stylesheet" href = "styles/header.css">
+    <link rel = "stylesheet" href = "styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
@@ -24,19 +25,61 @@
         <input class="search-bar" type="text" placeholder="Search">
         <button class = "search-button">
           <img class = "search-img" src="header-images/header3.svg">
+          <div class = "tooltip">Search</div>
         </button>
         <button class = "speak-button">
           <img class = "speak-img" src="header-images/header4.svg">
+          <div class = "tooltip">Search with your voice</div>
         </button>
       </div>
 
       <div class = "right">
-        <img class = "icon1" src = "header-images/header5.svg">
-        <img class = "icon2" src = "header-images/header6.svg">
-        <img class = "icon3" src = "header-images/header7.svg">
+        <div class = "upload-icon">
+          <img class = "icon1" src = "header-images/header5.svg">
+          <div class = "tooltip">Create</div>
+        </div>
+
+        <div class = "youtube-apps">
+          <img class = "icon2" src = "header-images/header6.svg">
+          <div class = "tooltip">YouTube apps</div>
+        </div>
+        
+        <div class = "notifications">
+          <img class = "icon3" src = "header-images/header7.svg">
+          <div class = "number"> 3 </div>
+          <div class = "tooltip">Notifications</div>
+        </div>   
         <img class = "icon4" src = "author-pictures/header8.png">
       </div>
 
+    </div>
+
+    <div class = "side-bar">
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/home.svg"> 
+        <p>Home<p>
+      </div>
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/explore.svg"> Explore
+      </div>
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/subscriptions.svg"> Subscriptions
+      </div>
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/originals.svg"> Originals
+      </div>
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/youtube-music.svg"> YouTube Music
+      </div>
+      <div class = "sidebar-icon">
+        <img class = "sidebar-img" 
+        src="sidebar-images/library.svg"> Library
+      </div>
     </div>
 
 
@@ -44,6 +87,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img1.webp">
+        <div class = "time"> 14:20</div>
       </div>
 
       <div class = "video-info-grid">
@@ -68,6 +112,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img2.webp">
+        <div class = "time"> 8:22 </div>
       </div>
 
       <div class = "video-info-grid">
@@ -92,6 +137,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img3.webp">
+        <div class = "time"> 9:13</div>
       </div>
 
       <div class = "video-info-grid">
@@ -116,6 +162,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img4.webp">
+        <div class = "time"> 22:09</div>
       </div>
 
       <div class = "video-info-grid">
@@ -140,6 +187,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img5.webp">
+        <div class = "time"> 11:17</div>
       </div>
 
       <div class = "video-info-grid">
@@ -164,6 +212,7 @@
     <div class = "video-description">
       <div class = "thumbnail-row">
         <img class="thumbnail" src = "images/img6.webp">
+        <div class = "time"> 19:59</div>
       </div>
 
       <div class = "video-info-grid">
@@ -180,6 +229,156 @@
           </p>
           <p class="video-stats">
             141M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img7.webp">
+        <div class = "time"> 19:59</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth7.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">           
+            Why Planes Don't Fly Over Tibet
+          </p>
+          <p class="video-author">
+            RealLifeLore
+          </p>
+          <p class="video-stats">
+            6.6M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img8.webp">
+        <div class = "time"> 19:59</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth8.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">            
+            Inside The World's Biggest Passenger Plane
+          </p>
+          <p class="video-author">
+            Tech Vision
+          </p>
+          <p class="video-stats">
+            3.7M views &#183; 10 months ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img9.webp">
+        <div class = "time"> 19:59</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth9.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            The SECRET to Super Human STRENGTH
+          </p>
+          <p class="video-author">
+            ThenX
+          </p>
+          <p class="video-stats">
+            20M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img10.webp">
+        <div class = "time"> 11:17</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth10.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">            
+          How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+          </p>
+          <p class="video-author">
+            Business Insider
+          </p>
+          <p class="video-stats">
+            14M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img11.webp">
+        <div class = "time"> 11:17</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth11.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+          </p>
+          <p class="video-author">
+            Destination Tips
+          </p>
+          <p class="video-stats">
+            3M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>    
+    </div>
+
+    <div class = "video-description">
+      <div class = "thumbnail-row">
+        <img class="thumbnail" src = "images/img12.webp">
+        <div class = "time"> 11:17</div>
+      </div>
+
+      <div class = "video-info-grid">
+        <div class ="channel-picture">
+          <img class="profile-picture" src = "author-pictures/auth12.jpeg">
+        </div>
+
+        <div class ="video-info">
+          <p class="video-title">
+            What would happen if you didn’t drink water? - Mia Nacamulli
+          </p>
+          <p class="video-author">
+            TED-Ed
+          </p>
+          <p class="video-stats">
+            12M views &#183; 5 years ago
           </p>
         </div>
       </div>    

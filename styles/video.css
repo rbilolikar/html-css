@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  padding-top: 57px;
 }
 
 .thumbnail{   /* Video picture */
@@ -14,7 +15,24 @@
 }
 
 .thumbnail-row{ /* Div for the video picture ( to get below elements in line ) */
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.time{
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.9);
+  color: white;
+  right: 5px;
+  bottom: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  border-radius: 2px;
 }
 
 .video-title{
@@ -22,7 +40,7 @@
   margin-top: 0px;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .video-info-grid{
@@ -32,7 +50,7 @@
 }
 
 .profile-picture{ /* Profile picture */
-  width: 40px;
+  width: 36px;
   border-radius: 36px;
 }
 
