@@ -26,15 +26,29 @@
   right: 5px;
   bottom: 7px;
   font-size: 12px;
-  font-weight: 500;
-  font-family: Roboto, Arial;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 2px;
+  font-weight: 500; 
+  padding: 2px 4px;
   border-radius: 2px;
 }
 
+@media (max-width: 750px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media( min-width: 751px ) and ( max-width: 999px ){ 
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media( min-width: 1000px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+}
 .video-title{
   font-weight: 500;
   margin-top: 0px;
